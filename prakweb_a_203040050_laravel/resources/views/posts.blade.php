@@ -21,12 +21,7 @@
         </form>
     </div>
 </div>
-
-
-
-
 @if ($posts->count())
-
 <div class="card mb-3">
 @if($posts[0]->image)
       <div style="max-height: 400px; overflow:hidden">
